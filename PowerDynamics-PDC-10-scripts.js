@@ -1,17 +1,14 @@
 var PowerDynamics_pdc_10 = {};
 
 PowerDynamics_pdc_10.init = function (id, debugging) {
-    // turn on all LEDs
-    for (var i = 1; i <= 12; i++) { // Repeat the following code for the numbers 1 through 12
-                                // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+    for (var i = 12; i <= 81; i++) { 
         midi.sendShortMsg(0x90, i, 0x7f);
     }
 }
 
 PowerDynamics_pdc_10.shutdown = function() {
-   // turn off all LEDs
-   for (var i = 1; i <= 12; i++) {
-        midi.sendShortMsg(0x90, i, 0x00);
+   for (var i = 12; i <= 81; i++) {
+        midi.sendShortMsg(0x80, i, 0x00);
     }
 }
 
