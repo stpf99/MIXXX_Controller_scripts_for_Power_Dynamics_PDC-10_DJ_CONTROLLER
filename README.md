@@ -1,7 +1,7 @@
 # MIXXX_Controller_scripts_for_Power_Dynamics_PDC-10_DJ_CONTROLLER
 MIXXX_Controller_scripts_for_Power_Dynamics_PDC-10_DJ_CONTROLLER
 
-1st ALPHA
+2nd ALPHA
 
 MISSING : 
 -blinking mappings for controller lights 
